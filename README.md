@@ -23,7 +23,13 @@ This project implements a hybrid recommendation system for an OTT platform using
 ### 1. Regression Dataset
 
 `ott_user_data.csv`
+The dataset is a synthetic CSV file (ott_user_data.csv) containing:
 
+watch_time → Time spent watching content
+genre_match → Similarity between user preference and show genre
+avg_user_rating → User’s historical average rating
+show_popularity → Popularity score of the show
+user_rating → Target variable (actual rating)
 ### 2. Collaborative Filtering Dataset
 
 `ott_ratings.csv`
@@ -70,7 +76,7 @@ This project implements a hybrid recommendation system for an OTT platform using
 
 ##  Example Output
 
-* Predicted rating: 4.2 ⭐
+* Predicted rating: 4.2 
 * Recommended shows: [104, 105]
 
 ---
